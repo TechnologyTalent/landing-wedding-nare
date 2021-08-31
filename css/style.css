@@ -708,7 +708,7 @@ body {
 
 
 .section-6 {
-    background: rgba(235, 235, 235, 1);
+    background: #ffffff;
     background-size: cover;
     background-position: center;
     padding: 80px 0px;
@@ -848,7 +848,7 @@ body {
 
 
 .section-7 {
-    background: #ffffff;
+    background: rgba(235, 235, 235, 1);
     background-size: cover;
     background-position: center;
     padding: 80px 0px;
@@ -944,9 +944,15 @@ body {
 
 }
 
+.section-8 p {
+    padding: 80px 0px;
+    color: #000;
+    font-family: 'Open sans', sans-serif;
+    text-align: center;
+}
 
 
-.section-8 .heading h1::after {
+/* .section-8 .heading h1::after {
 
     content: "";
     display: block;
@@ -958,7 +964,7 @@ body {
     width: 100%;
     position: relative;
 
-}
+} */
 
 
 .rsvp-col {
