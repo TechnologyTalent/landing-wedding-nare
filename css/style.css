@@ -13,7 +13,7 @@ body {
 
 .bg-transparent {
 
-    background-color: #ffffff !important;
+    background-color: #EDECE8 !important;
     box-shadow: -4px 0px 2px #8e8e8e;
 }
 
@@ -21,7 +21,7 @@ body {
 
 .navbar {
     padding: 10px 50px;
-    background: rgba(255, 255, 255, 0.82);
+    background: #EDECE8;
 }
 
 
@@ -53,7 +53,7 @@ body {
 }
 
 .navbar-brand:hover .fa-heartbeat {
-    color: #ff6868;
+    color: #FF7070;
 
 }
 
@@ -80,18 +80,18 @@ body {
 .navbar-nav .nav-item .nav-link:hover,
 .navbar-nav .nav-item .nav-link:focus {
 
-    color: #ff4545;
+    color: #FF7070;
 
 }
 
 
 .navbar-nav .nav-item .nav-link.active {
-    color: #ff4545;
+    color: #FF7070;
 }
 
 
 .navbar-brand .fa-heartbeat {
-    color: #ff4545;
+    color: #FF7070;
 }
 
 
@@ -104,7 +104,7 @@ body {
 
 .section-1 {
     height: 100vh;
-    background: url("../img/section1/anillos.jpg") no-repeat;
+    background: url("../img/section1/pareja.jpg") no-repeat;
     background-position: top left;
     background-attachment: scroll;
     background-size: cover;
@@ -605,9 +605,10 @@ body {
 
 
 .section-5 {
-
+    background: #EDECE8;
+    background-size: cover;
+    background-position: center;
     padding: 80px 0px;
-
 }
 
 
@@ -623,7 +624,8 @@ body {
     text-transform: capitalize;
     text-align: center;
     padding-bottom: 60px;
-    color: #ff4545;
+    color: #6B1717;
+    font-weight: bold;
 }
 
 .section-5 .heading h1::after {
@@ -669,7 +671,8 @@ body {
 }
 
 .event .content h1 {
-    color: #ff5050;
+    color: #6B1717;
+    font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Dancing Script', cursive;
     text-transform: capitalize;
@@ -708,7 +711,7 @@ body {
 
 
 .section-6 {
-    background: #ffffff;
+    background: #EDECE8;
     background-size: cover;
     background-position: center;
     padding: 80px 0px;
@@ -719,6 +722,8 @@ body {
     color: #000;
     font-family: 'Open sans', sans-serif;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -728,7 +733,8 @@ body {
     text-transform: capitalize;
     text-align: center;
     padding-bottom: 60px;
-    color: #ff4545;
+    color: #6B1717;
+    font-weight: bold;
 }
 
 /* .section-6 .heading h1::after {
@@ -817,7 +823,8 @@ body {
 }
 
 .section-6 .people .content h1 {
-    color: #ff5050;
+    color: #6B1717;
+    font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Dancing Script', cursive;
     text-transform: capitalize;
@@ -848,7 +855,7 @@ body {
 
 
 .section-7 {
-    background: rgba(235, 235, 235, 1);
+    background: #D9997D;
     background-size: cover;
     background-position: center;
     padding: 80px 0px;
@@ -863,8 +870,9 @@ body {
     font-family: 'Dancing Script', cursive;
     text-transform: capitalize;
     text-align: center;
-    padding-bottom: 60px;
-    color: #ff4545;
+    padding-bottom: 20px;
+    color: #6B1717;
+    font-weight: bold;
 }
 
 .section-7 .heading h1::after {
@@ -921,8 +929,7 @@ body {
 
 
 .section-8 {
-    background: #f59090;
-    background: #efefef;
+    background: #D9997D;
     background-size: cover;
     background-position: center;
     padding: 80px 0px;
@@ -933,8 +940,9 @@ body {
 
 
 .section-8 .heading h1 {
-    color: #ff4545;
+    color: #6B1717;
     font-size: 45px;
+    font-weight: bold;
     font-family: 'Dancing Script', cursive;
     text-transform: capitalize;
     text-align: center;
@@ -1025,8 +1033,8 @@ body {
 
 .send-button .btn.btn-primary {
     margin-top: 15px;
-    background: #ff4545;
-    border-color: #ff4545;
+    background: #3F0909;
+    border-color: #3F0909;
     padding: 5px 20px;
     text-transform: uppercase;
 }
@@ -1174,7 +1182,7 @@ body {
     
     .section-1 {
         height: 100vh;
-        background: url("../img/section1/anillos-md.jpg") no-repeat;
+        background: url("../img/section1/pareja-md.jpg") no-repeat;
         background-position: top left;
         background-attachment: scroll;
         background-size: cover;
@@ -1205,7 +1213,7 @@ body {
 
     .section-1 {
         height: 100vh;
-        background: url("../img/section1/anillos-md.jpg") no-repeat;
+        background: url("../img/section1/pareja-md.jpg") no-repeat;
         background-position: center;
         background-attachment: scroll;
         background-size: cover;
@@ -1256,7 +1264,7 @@ body {
 @media only screen and (max-width: 576px) {
     .section-1 {
         height: 100vh;
-        background: url("../img/section1/anillos-md.jpg") no-repeat;
+        background: url("../img/section1/pareja-md.jpg") no-repeat;
         background-position: center;
         background-attachment: scroll;
         background-size: cover;
@@ -1334,8 +1342,7 @@ body {
 
 
     .section-8 {
-        background: #f59090;
-        background: #efefef;
+        background: #D9997D;
         background-size: cover;
         background-position: center;
         padding: 80px 0px;
