@@ -1160,11 +1160,11 @@ body {
 @media only screen and (max-width: 1024px) {
     
 .navbar-light .navbar-toggler {
-    border-color: rgb(255, 69, 69);
+    border-color: #3F0909;
 }
 
 .navbar .navegacion-barra{
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .navbar .navbar-brand {
