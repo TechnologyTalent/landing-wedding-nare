@@ -295,7 +295,7 @@
                             <h1>Ceremonia</h1>
                             <p>La ceremonia religiosa se realizará el día 19/02/22 a las 11 Hs. en la Vicaría San Luis de la Candelaria. Tocá el botón de abajo para recibir las indicaciones para llegar</p>
                             <div class="col-xl-12 col-md-12 col-12 send-button">
-                                <button class="btn btn-primary">LLEGAR A LA CEREMONIA</button>
+                                <button class="btn btn-primary" onClick="javascript:window.open('https://goo.gl/maps/9C9ebrQDdwMR82Rg6', '_blank');">LLEGAR A LA CEREMONIA</button>
                             </div>
                             <!-- <ul liststyle-type-none>
                                 <li>park hayatt hotel,new york </li>
@@ -313,7 +313,7 @@
                             <h1>Fiesta</h1>
                             <p>Luego de la ceremonia religiosa, realizaremos la ceremonia civil y festejaremos en Aracar Eventos hasta las 19 horas. Tocá el botón de abajo y encontrá las indicaciones para llegar, te esperamos 😉</p>
                             <div class="col-xl-12 col-md-12 col-12 send-button">
-                                <button class="btn btn-primary">LLEGAR A LA FIESTA</button>
+                                <button class="btn btn-primary" onClick="javascript:window.open('https://goo.gl/maps/LMKCpsZaqLNM3pF49', '_blank');">LLEGAR A LA FIESTA</button>
                             </div>
                             <!-- <ul liststyle-type-none>
                                 <li>park hayatt hotel,new york </li>
@@ -562,7 +562,27 @@
                 </div>
 
                 <div class="col-xl-12 col-md-12 col-12 send-button">
-                    <button class="btn btn-primary">VER DATOS BANCARIOS</button>
+                    <button data-fancybox data-src="#modal1" href="javascript:;" data-options='{"touch" : false}' class="btn btn-primary">VER DATOS BANCARIOS</button>
+                </div>
+
+                <div style="display: none;" id="modal1">
+
+                    <span class="title">Datos Bancarios</span>
+                    
+                    <ul>
+                      <li>Emmanuel Perez Saravia</li>
+                      <li>CUIL/CUIT: 20376366821</li>
+                      <li>CBU: 0340216208216022044005</li>
+                      <li>Banco Patagonia</li>
+                    </ul>
+                    
+                    <span class="title">Mercado Pago</span>
+                    
+                    <ul>
+                        <li>Andrea Vazquez</li>
+                        <li>CBU: 0000003100006673371953</li>
+                    </ul>
+                    
                 </div>
 
             </div>
@@ -582,7 +602,7 @@
                     <p>Esperamos que seas parte de esta gran celebración. ¡Confirmanos tu asistencia!</p>
                 </div>
                 <div class="col-xl-12 col-md-12 col-12 send-button">
-                    <button class="btn btn-primary">CONFIRMAR ASISTENCIA</button>
+                    <button class="btn btn-primary" onClick="javascript:window.open('https://forms.gle/AUSroWmQdRL8TnK2A', '_blank');">CONFIRMAR ASISTENCIA</button>
                 </div>
             </div>
 
@@ -715,7 +735,6 @@
         })
     </script>
     <!-- stickey nav end -->
-
 
 
     <!--wow js-->
