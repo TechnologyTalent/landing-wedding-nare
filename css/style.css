@@ -55,13 +55,15 @@ body {
 
     font-family: 'Kaushan Script', cursive;
 
-    padding: 5px 0px;
+    padding: 12px;
 
     color: #000000;
 
     letter-spacing: 5px;
 
     font-size: 30px;
+
+
 }
 
 .navbar img {
@@ -1223,15 +1225,12 @@ body {
 
 .navbar .navbar-brand {
 
-    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+}
 
-    padding: 5px 0px 0px 3px;
+.navbar-light .navbar-nav li {
+    font-size: 100%;
 
-    color: #000000;
-
-    letter-spacing: 5px;
-
-    font-size: 25px;
 }
     
     .section-1 {
@@ -1417,5 +1416,16 @@ body {
 
 
 
+
+}
+
+@media only screen and (max-width: 280px) {
+    .navbar .navbar-brand {
+        font-size: 90%;
+    }
+
+    .btn {
+        font-size:80%;
+    }
 
 }
