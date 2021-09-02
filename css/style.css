@@ -7,6 +7,10 @@ body {
 
 }
 
+.row {
+    margin-right:0px;
+}
+
 #modal1 span.title{
     display: inline-block;
     text-align: center;
