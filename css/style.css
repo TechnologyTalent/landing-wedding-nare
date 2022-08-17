@@ -11,6 +11,10 @@ body {
     margin-right:0px;
 }
 
+.rowSection{
+    margin: auto;
+}
+
 #modal1 span.title{
     display: inline-block;
     text-align: center;
@@ -38,7 +42,7 @@ body {
 
 .bg-transparent {
 
-    background-color: #EDECE8 !important;
+    background-color: #F2F2F2 !important;
     box-shadow: -4px 0px 2px #8e8e8e;
 }
 
@@ -46,7 +50,7 @@ body {
 
 .navbar {
     padding: 10px 50px;
-    background: #EDECE8;
+    background: #F2F2F2;
 }
 
 
@@ -80,7 +84,7 @@ body {
 }
 
 .navbar-brand:hover .fa-heartbeat {
-    color: #FF7070;
+    color: #584B73;
 
 }
 
@@ -107,18 +111,18 @@ body {
 .navbar-nav .nav-item .nav-link:hover,
 .navbar-nav .nav-item .nav-link:focus {
 
-    color: #FF7070;
+    color: #584B73;
 
 }
 
 
 .navbar-nav .nav-item .nav-link.active {
-    color: #FF7070;
+    color: #584B73;
 }
 
 
 .navbar-brand .fa-heartbeat {
-    color: #FF7070;
+    color: #584B73;
 }
 
 
@@ -164,7 +168,8 @@ body {
     background: url("../img/section1/pareja.jpg") no-repeat;
     background-position: top left;
     background-attachment: scroll;
-    background-size: cover;
+    background-size: contain;
+    background-color: #d5d3d6;
 }
 
 .section-1 .content {
@@ -184,8 +189,10 @@ body {
     width: 60%;
     margin-top: 100px;
     margin-left: 150px;
+    margin-bottom: 50px;
     box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-    background: rgba(251, 254, 223, 0.47);
+    background: rgb(245 223 254 / 30%);
+    border-radius: 5px;
 }
 
 .text-box {
@@ -218,11 +225,10 @@ body {
 /* ======================= section 2 =================== */
 
 .section-2 {
-    background: url("../img/");
+    background-color: #584B73;
     background-size: 10%;
     background-origin: top left;
     padding: 80px 0px;
-
 }
 
 
@@ -319,7 +325,7 @@ body {
 
 .section-3 {
     background: #ffebb9;
-    background: url("../img/section3/countdown-bg0.jpg") no-repeat;
+    background: url("../img/section3/countdown-bg.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     padding: 80px 0px;
@@ -661,7 +667,7 @@ body {
 
 
 .section-5 {
-    background: #EDECE8;
+    background: #F2F2F2;
     background-size: cover;
     background-position: center;
     padding: 80px 0px;
@@ -680,7 +686,7 @@ body {
     text-transform: capitalize;
     text-align: center;
     padding-bottom: 60px;
-    color: #D99379;
+    color: #584B73;
     font-weight: bold;
 }
 
@@ -727,7 +733,7 @@ body {
 }
 
 .event .content h1 {
-    color: #D99379;
+    color: #584B73;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Dancing Script', cursive;
@@ -767,7 +773,7 @@ body {
 
 
 .section-6 {
-    background: #EDECE8;
+    background: #F2F2F2;
     background-size: cover;
     background-position: center;
     padding: 80px 0px;
@@ -789,7 +795,7 @@ body {
     text-transform: capitalize;
     text-align: center;
     padding-bottom: 60px;
-    color: #D99379;
+    color: #584B73;
     font-weight: bold;
 }
 
@@ -911,11 +917,10 @@ body {
 
 
 .section-7 {
-    background: rgba(230, 137, 106, 0.4);
+    background: #584B73;
     background-size: cover;
     background-position: center;
-    padding: 80px 0px;
-
+    padding: 80px 25px;
 }
 
 
@@ -927,7 +932,7 @@ body {
     text-transform: capitalize;
     text-align: center;
     padding-bottom: 20px;
-    color: #D99379;
+    color: #F2F2F2;
     font-weight: bold;
 }
 
@@ -985,7 +990,7 @@ body {
 
 
 .section-8 {
-    background: rgba(230, 137, 106, 0.4);
+    background: #584B73;
     background-size: cover;
     background-position: center;
     padding: 80px 0px;
@@ -996,7 +1001,7 @@ body {
 
 
 .section-8 .heading h1 {
-    color: #D99379;
+    color: #F2F2F2;
     font-size: 45px;
     font-weight: bold;
     font-family: 'Dancing Script', cursive;
@@ -1010,7 +1015,7 @@ body {
 
 .section-8 p {
     padding: 80px 0px;
-    color: #000;
+    color: #F2F2F2;
     font-family: 'Open sans', sans-serif;
     text-align: center;
 }
@@ -1089,8 +1094,8 @@ body {
 
 .send-button .btn.btn-primary {
     margin-top: 15px;
-    background: #D99379;
-    border-color: #D99379;
+    background: #584B73;
+    border-color: #584B73;
     padding: 5px 20px;
     text-transform: uppercase;
 }
@@ -1105,7 +1110,7 @@ body {
 
 .section-9 {
     background: #f59090;
-    background: url("../img/footer/footer-bg2.jpg");
+    background: url("../img/footer/footer-bg.jpg");
     background-size: cover;
     background-position: center;
     padding: 80px 0px;
@@ -1203,13 +1208,6 @@ body {
 
 /*footer end*/
 
-
-
-
-
-
-
-
 /* start 1024px  */
 
 
@@ -1244,7 +1242,7 @@ body {
     .text-box {
     width: 70%;
     position: absolute;
-    top: 45%;
+    top: 38%;
     left: 44%;
     transform: translateX(-50%);
     text-align: center;
@@ -1321,6 +1319,7 @@ body {
         background-position: center;
         background-attachment: scroll;
         background-size: cover;
+        padding-left: 15px;
     }
 
     .wrap-content img {
@@ -1328,7 +1327,7 @@ body {
         margin-top: 100px;
         margin-left: 0px;
         box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-        background: rgba(251, 254, 223, 0.47);
+        background: rgb(245 223 254 / 40%);
     }
 
     .wrap-content {
@@ -1395,7 +1394,7 @@ body {
 
 
     .section-8 {
-        background: rgba(230, 137, 106, 0.4);
+        background: #584B73;
         background-size: cover;
         background-position: center;
         padding: 80px 0px;
